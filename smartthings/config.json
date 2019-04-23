@@ -6,6 +6,13 @@
     "url": "https://github.com/adamfeldman/hassio-addons/tree/master/smartthings",
     "image": "afelds/{arch}-hassio-smartthings-mqtt-bridge",
     "startup": "before",
+    "arch": [
+        "amd64",
+        "armhf",
+        "i386",
+        "armv7",
+        "aarch64"
+    ],
     "boot": "auto",
     "host_network": true,
     "options": {
